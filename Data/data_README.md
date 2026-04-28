@@ -60,3 +60,18 @@ Missing values (e.g., in `Girder Type`) remain as `NaN` in these files. Imputati
   5. `Avg Daily Trafic`
   6. `Regulatory Speed (mph)`
   7. `Bridge Age`
+
+
+## Data Usage and Licensing Disclaimer
+
+The datasets, models, and findings provided in this repository are derived from ongoing, active research conducted by The University of Texas at Arlington (UTA) with the Texas Department of Transportation (TxDOT) Fort Worth District.
+
+Because bridge foundation records and structural geometry represent critical national infrastructure assets, strict usage limitations apply to this project:
+
+• **No Unauthorized Copying or Distribution:** You may not copy, share, publish, or distribute the raw or processed datasets contained within this project without explicit written permission from the primary researchers and TxDOT.
+
+• **Restricted Use:** The data is provided strictly for academic review and demonstration of the machine learning workflow within the context of this specific project.
+
+• **Prohibition of Misuse:** Do not misuse, reverse-engineer, or apply this data to assess or make decisions regarding physical, real-world infrastructure.
+
+For permissions or inquiries regarding the dataset, please contact the repository owner or the UTA Civil Engineering research team.
