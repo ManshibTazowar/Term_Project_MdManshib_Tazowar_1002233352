@@ -1,4 +1,4 @@
-md_content = """# Data-Driven Prediction of Unknown Foundation Bridge Depth Using Nondestructive Testing and Machine Learning
+Data-Driven Prediction of Unknown Foundation Bridge Depth Using Nondestructive Testing and Machine Learning
 
 
 This repository contains a machine learning framework developed to evaluate and predict bridge foundation parameters using Nondestructive Testing (NDT) data. The primary goal is to mitigate streambed scour risk—the leading cause of bridge failure in the United States—by predicting foundation types and depths for bridges with missing structural records.
@@ -42,13 +42,12 @@ sample-github-repo/
 │   ├── accuracy/
 │   │   ├── figures/
 │   │   │   ├── classification_figures/
+│   │   │   ├── prediction_figures/
 │   │   ├── Classification_accuracy/
 │   │   ├── Prediction_accuracy/
-│   │   ├── feature_importance_random_forest.csv
-│   │   ├── feature_importance_xgboost.csv
-│   │   └── model_comparison_metrics.csv
 │   └── robustness/
-│       └── figures/
+│       └── Classification_robustness/
+│       └── Prediction_robustness/
 ├── src/
 │   ├── presentation_plots.ipynb
 │   ├── all_plots.ipynb
@@ -58,7 +57,6 @@ sample-github-repo/
 │   └── robustness_checks.ipynb
 ├── LICENSE
 ├── README.md
-└── requirements.txt
 ```
 
 ## Expected Outputs
