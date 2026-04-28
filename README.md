@@ -123,7 +123,7 @@ A scalable, data-driven tool is provided by this framework for DOTs to prioritiz
 
 ## Data Usage and Licensing Disclaimer
 
-The datasets, models, and findings provided in this repository are derived from ongoing, active research conducted by The University of Texas at Arlington (UTA) in partnership with the Texas Department of Transportation (TxDOT) Fort Worth District.
+The datasets, models, and findings provided in this repository are derived from ongoing, active research conducted by The University of Texas at Arlington (UTA) with the Texas Department of Transportation (TxDOT) Fort Worth District.
 
 Because bridge foundation records and structural geometry represent critical national infrastructure assets, strict usage limitations apply to this project:
 
