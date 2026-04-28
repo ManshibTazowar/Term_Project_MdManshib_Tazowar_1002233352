@@ -6,6 +6,7 @@ This repository contains a machine learning framework developed to evaluate and 
 ## Project Overview
 * **Author:** Md Manshib Tazowar
 * **Institution:** The University of Texas at Arlington
+* **UTA ID:** 1002233352
 * **Dataset:** 71 bridges in the TxDOT Fort Worth District.
 
 ## Abstract
@@ -16,13 +17,16 @@ This repository contains a machine learning framework developed to evaluate and 
  ## Introduction
 
 In Texas, more than 9,000 bridges have unknown foundations, 85% of which are located on local roads [1]. These bridges, often referred to as "off system" bridges, were typically designed and constructed by local government entities or private companies. A significant portion of these unknown foundation bridges, as recorded in the National Bridge Inventory (NBI) has made monitoring safety very challenging. Particularly the scour-critical ones caused by the flowing water and erodible soil conditions. Evaluating unknown foundations is also essential when planning bridge improvements. 
+
 Traditional methods such as excavation, coring, and boring while effective are often costly, invasive, and impractical for widespread application in identifying unknown foundation characteristics. In response, a variety of surface and borehole-based nondestructive testing (NDT) techniques offer a less disruptive alternative due to their non-invasive, cost-effective, and field-deployable nature. 
+
 Various Stress-wave methods such as Sonic Echo (SE), Impulse Response (IR), Ultra-Seismic, bending wave analysis, and borehole-based methods including PS, borehole sonic, and Crosshole Sonic Logging (CSL) are widely applied to assess foundation depths. Electro-magnetic approaches like electrical resistivity imaging (ERI), induced polarization, electromagnetic induction, and field modal vibration also offer valuable subsurface insights in certain conditions. However, the applicability of these methods can be constrained by subsurface conditions, accessibility, or foundation type.
+
 Bridge foundations are generally categorized into two types: Shallow Foundations (e.g., Spread Footings), and Deep Foundations (e.g., Drilled Shafts, Piles), which extend deep into the soil and are generally resilient to scour. Without knowing if a foundation is deep or shallow, engineers cannot accurately calculate its failure risk. Furthermore, estimating the exact depth is crucial for calculating load capacity. Current methods to determine foundation depth, such as excavation or boreholes, are expensive and disruptive to traffic. Figure 1 shows the location of the 71 bridges that were used for determining this project to classify and predict depth of the foundation. The aim of this project is to solve this problem using data mining techniques. The primary objectives are defined as follows:
 
-1. Classification (Phase I): Distinction between Deep and Shallow foundations is sought to prioritize high-risk bridges.
+1. **Classification (Phase I):** Distinction between Deep and Shallow foundations is sought to prioritize high-risk bridges.
 
-2. Prediction (Phase II): The continuous Depth (ft) of the foundation is estimated for load rating analysis using regression models.
+2. **Prediction (Phase II):** The continuous Depth (ft) of the foundation is estimated for load rating analysis using regression models.
 
 
 ## Methodology
@@ -97,6 +101,16 @@ Running the pipeline generates the following files in the `output/` directory:
 * `output/robustness/figures/*_robustness_missing_data.png`
 * `output/robustness/figures/*_robustness_perturbation.png`
 * `output/robustness/figures/*_robustness_bootstrap_histogram.png`
+
+## Conclusion
+
+It was successfully demonstrated in this study that unknown bridge foundations can be characterized with high accuracy using only non-destructive testing and inventory data.
+
+**Classification:** 98% accuracy was achieved in distinguishing Deep vs. Shallow foundations using LightGBM.
+
+**Prediction:** An R2 of 0.78 was achieved in predicting specific foundation depths using Random Forest, with a mean error of 8.08 feet.
+A scalable, data-driven tool is provided by this framework for DOTs to prioritize bridges for scouring countermeasures without the need for expensive excavation.
+
 
 ## Future Works
 
